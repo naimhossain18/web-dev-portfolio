@@ -1,0 +1,99 @@
+/*
+*{
+    padding: 0px;
+    margin: 0px;
+}*/
+
+.open-sans-normal {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-variation-settings: "100";
+  font-style: normal;
+}
+
+/*#########################################################------shared-style-------##################################################*/
+/*#########################################################------shared-style-------##################################################*/
+.text-primary {
+  color: #fd6e0a;
+}
+.dark-2 {
+  color: #474747;
+}
+.dark-3 {
+  color: #757575;
+}
+.btn-primary {
+  padding: 18px 35px;
+  background-color: #fd6e0a;
+  border: #fd6e0a solid 1px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold; /*bold=700*/
+  font-size: 20px;
+}
+/*------#######################---------header style----------###########################*/
+
+.header {
+  background-image: url(./portfolio-resources/images/developer.png),
+    url(./portfolio-resources/images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position:top left, bottom right;
+}
+
+/*###################################################---- navbar style-------######################################################## #########*/
+/*###################################################---- navbar style-------######################################################## #########*/
+
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 100px;
+}
+.nav-title {
+  font-weight: 800px;
+  font-size: 45px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+/*###################################################---- banner style-------######################################################## #########*/
+/*###################################################---- banner style-------######################################################## #########*/
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+}
+.banner-content {
+  max-width: 585px;
+  max-height: 356px;
+  margin: 0 35px 0 230px;
+}
+.banner-greetings {
+  font-weight: 600;
+  /* (font-weight - semibold=600) */
+  font: size 45px;
+  margin: 10px;
+}
+.banner-title {
+  font-weight: bold;
+  font-size: 85px;
+  margin: 10px;
+}
+.banner-des {
+  font-weight: 400;
+  /*  (font-weight -regular=600) --*/
+  font-size: 18px;
+}
+.profile-picture {
+  height: 676px;
+  width: 584px;
+}
