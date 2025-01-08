@@ -19,6 +19,9 @@
 .text-primary {
   color: #fd6e0a;
 }
+.text-center{
+    text-align: center;
+}
 .dark-2 {
   color: #474747;
 }
@@ -39,6 +42,7 @@
   font-weight: bold;
   font-size: 35px;
   color: #181818;
+  text-align: center;
 }
 .section-des {
   font-weight: 400;
@@ -120,8 +124,12 @@ nav li a {
             max-width: 1140px;
             margin: 0 auto;
         }
+        main section{
+            margin-top: 130px;
+            margin-bottom: 130px;
+        }
 
-/*###################################################---- section-1 style-------######################################################## #########*/
+/*###################################################---- section-"about-me" style-------######################################################## #########*/
 /*###################################################---------------------------######################################################## #########*/
 .about{
     border-radius: 10px;
@@ -143,4 +151,84 @@ nav li a {
     font-weight: bold;
     font-size: 20;
     /*color: .dark-2*/
+}
+
+/*###################################################---- section-"What I do" style-------######################################################## #########*/
+
+.skills{margin-top: 130px;
+
+    
+}
+.skills-continer{
+    display: flex;
+    height: 377px;
+    justify-content: space-around;
+    gap: 24px;
+
+
+}
+.skill{
+    width: 267px;
+    padding: 33px;
+    margin: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-des{
+    /*padding: 33px;*/
+
+}
+/*###################################################---- section-"resume" style-------######################################################## #########*/
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+ 
+}
+.resume-column-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px;
+    color: #757575;
+
+}
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+}
+.experience-des{
+    font-size: 16px;
+    font-weight: 400;
+}
+.resume hr{
+    margin: 30px 5px;
+    
+}
+.resume-download-cv{
+    margin-top: 50px;
+}
+
+/*###################################################---- section-"resume" style-------######################################################## #########*/
+footer{
+    display: flex;
+    gap: 100px;
+    padding: 130px 230px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+
+
 }
